@@ -15,7 +15,9 @@
                 Height="48" Margin="343,248,338.2,0" Click="load_Click"/>
         <Button x:Name="play" Content="Play Quiz" HorizontalAlignment="Center"  VerticalAlignment="Top" Width="114" 
                 Height="48" Margin="343,172,338.2,0" Click="play_Click"/>
-        <Label x:Name="filefound" HorizontalAlignment="Left" Height="33" Margin="343,325,0,0"
+         <Button x:Name="exit" Content="Exit" HorizontalAlignment="Center"  VerticalAlignment="Top" Width="114" 
+                Height="48" Margin="345,321,341,0" Click="exit_Click"/>
+        <Label x:Name="filefound" HorizontalAlignment="Left" Height="33" Margin="345,374,0,0"
                   VerticalAlignment="Top" Width="114" RenderTransformOrigin="0.474,-0.058" HorizontalContentAlignment="Center"/>
         <Frame x:Name="main" Height="450" Width="800"/>
     </Grid>
