@@ -14,8 +14,14 @@ namespace testapp
     {
         public MainWindow()
         {
-            InitializeComponent();
-            this.filefound.Content = System.IO.Path.GetFileName(fil) + " Loaded";
+            if (fil == "")
+            {
+                this.filefound.Content ="Nothing Loaded";
+            }
+            else
+            {
+                this.filefound.Content = System.IO.Path.GetFileName(fil) + " Loaded";
+            }
         }
 
         public static Dictionary<string, string[]> questions = new Dictionary<string, string[]>();
@@ -155,6 +161,14 @@ namespace testapp
 
                 questions = questions.OrderBy(x => rng.Next())
               .ToDictionary(item => item.Key, item => item.Value);
+            }
+        }
+        private void exit_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBoxResult m = MessageBox.Show("Are You Sure?", "Confirm", MessageBoxButton.YesNo);
+            if(m == MessageBoxResult.Yes)
+            {
+                App.Current.Shutdown();
             }
         }
     }
