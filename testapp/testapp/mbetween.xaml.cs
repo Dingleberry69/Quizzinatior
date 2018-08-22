@@ -1,17 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace testapp
 {
@@ -41,24 +29,39 @@ namespace testapp
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             string tString = numofquestions.Text;
-            if (tString.Trim() == "") return;
-            for (int i = 0; i < tString.Length; i++)
+            if (tString.Trim() == "")
             {
-                if (!char.IsNumber(tString[i]))
+                MessageBox.Show("Cannot Enter An Empty Number");
+            }
+            else
+            {
+                if (tString.Trim() == "") return;
+                for (int i = 0; i < tString.Length; i++)
                 {
-                    MessageBox.Show("Please enter a valid number");
-                    numofquestions.Text = "";
-                    return;
+                    if (!char.IsNumber(tString[i]))
+                    {
+                        MessageBox.Show("Please enter a valid number");
+                        numofquestions.Text = "";
+                        return;
+                    }
+                    @new.IsEnabled = true;
                 }
-                @new.IsEnabled = true;
             }
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            quizm.sfile = quizname.Text;
-            numofquestions.IsEnabled = true;
-            sub.IsEnabled = true;
+            if (quizname.Text.Trim() == "")
+            {
+                MessageBox.Show("Cannot Enter A Blank Name");
+
+            }
+            else
+            {
+                quizm.sfile = quizname.Text;
+                numofquestions.IsEnabled = true;
+                sub.IsEnabled = true;
+            }
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
@@ -67,3 +70,4 @@ namespace testapp
         }
     }
 }
+
