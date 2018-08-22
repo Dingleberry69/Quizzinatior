@@ -1,18 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace testapp
 {
@@ -64,10 +54,17 @@ namespace testapp
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            read(fiile + $"\\{(string)quizzes.SelectedItem}");
-            questionedit.sfile = fiile + $"\\{(string)quizzes.SelectedItem}";
-            selectquestion.questions = questions;
-            back.Content = new selectquestion();
+            if (fiile.Trim() == "")
+            {
+                MessageBox.Show("No File Selected");
+            }
+            else
+            {
+                read(fiile + $"\\{(string)quizzes.SelectedItem}");
+                questionedit.sfile = fiile + $"\\{(string)quizzes.SelectedItem}";
+                selectquestion.questions = questions;
+                back.Content = new selectquestion();
+            }
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -104,3 +101,4 @@ namespace testapp
         }
     }
 }
+
