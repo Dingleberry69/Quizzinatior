@@ -1,18 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace testapp
 {
@@ -34,42 +24,58 @@ namespace testapp
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             ans[4] = A1text.Text;
+            MessageBox.Show($"Right Answer = {A1text.Text}");
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             ans[4] = A2text.Text;
+            MessageBox.Show($"Right Answer = {A2text.Text}");
 
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             ans[4] = A3text.Text;
+            MessageBox.Show($"Right Answer = {A3text.Text}");
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             ans[4] = A4text.Text;
+            MessageBox.Show($"Right Answer = {A4text.Text}");
         }
 
         public static Dictionary<string, string[]> questions = new Dictionary<string, string[]>();
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            ques = qtext.Text;
-            ans[0] = A1text.Text;
-            ans[1] = A2text.Text;
-            ans[2] = A3text.Text;
-            ans[3] = A4text.Text;
-            questions.Add(ques, ans);
-            l++;
-            update();
+            if (qtext.Text.Trim() == "" || A1text.Text.Trim() == "" || A2text.Text.Trim() == "" || A3text.Text.Trim() == "" ||
+                A4text.Text.Trim() == "")
+            {
+                MessageBox.Show("Cannot Have A Blank Question Or Answer");
+            }
+            if (ans[4].Trim() == "")
+            {
+                MessageBox.Show("Need A Right Answer");
+            }
+            else
+            {
+                ques = qtext.Text;
+                ans[0] = A1text.Text;
+                ans[1] = A2text.Text;
+                ans[2] = A3text.Text;
+                ans[3] = A4text.Text;
+                questions.Add(ques, ans);
+                l++;
+                update();
+            }
         }
 
         public void update()
         {
             if (l >= num)
             {
-                using (StreamWriter file = new StreamWriter($@".\QuizinatorQuizzes\{sfile}.txt", false))
+                using (StreamWriter file = new StreamWriter($@".\QuizinatorQuizzes\{sfile.Trim()}.txt", false))
                     foreach (String key in questions.Keys)
                     {
                         file.Write($"{key} @@ ");
@@ -88,6 +94,7 @@ namespace testapp
                         }
                         file.WriteLine();
                     }
+                MessageBox.Show("Quiz has been saved");
                 make.Content = new mbetween();
             }
             else
@@ -99,6 +106,18 @@ namespace testapp
                 q.A3text.Text = "";
                 q.A4text.Text = "";
                 make.Content = new quizm();
+            }
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            MessageBoxResult m = MessageBox.Show("Are You Sure? Anything Not Saved Will Be Lost", "Confirm",
+                MessageBoxButton.YesNo);
+            if (m == MessageBoxResult.Yes)
+            {
+                l = num;
+                update();
+                make.Content = new mbetween();
             }
         }
     }
