@@ -1,0 +1,60 @@
+c:\users\angela\source\repos\testapp\testapp\bin\Debug\testapp.exe.config
+c:\users\angela\source\repos\testapp\testapp\bin\Debug\testapp.exe
+c:\users\angela\source\repos\testapp\testapp\bin\Debug\testapp.pdb
+c:\users\angela\source\repos\testapp\testapp\obj\Debug\load.g.cs
+c:\users\angela\source\repos\testapp\testapp\obj\Debug\MainWindow.g.cs
+c:\users\angela\source\repos\testapp\testapp\obj\Debug\App.g.cs
+c:\users\angela\source\repos\testapp\testapp\obj\Debug\testapp_MarkupCompile.cache
+c:\users\angela\source\repos\testapp\testapp\obj\Debug\testapp_MarkupCompile.lref
+c:\users\angela\source\repos\testapp\testapp\obj\Debug\load.baml
+c:\users\angela\source\repos\testapp\testapp\obj\Debug\MainWindow.baml
+c:\users\angela\source\repos\testapp\testapp\obj\Debug\testapp.g.resources
+c:\users\angela\source\repos\testapp\testapp\obj\Debug\testapp.Properties.Resources.resources
+c:\users\angela\source\repos\testapp\testapp\obj\Debug\testapp.csproj.GenerateResource.cache
+c:\users\angela\source\repos\testapp\testapp\obj\Debug\testapp.csproj.CoreCompileInputs.cache
+c:\users\angela\source\repos\testapp\testapp\obj\Debug\testapp.exe
+c:\users\angela\source\repos\testapp\testapp\obj\Debug\testapp.pdb
+c:\users\angela\source\repos\testapp\testapp\obj\Debug\testapp.Form1.resources
+C:\Users\Angela\source\repos\testapp\testapp\obj\Debug\quizmaker.g.cs
+C:\Users\Angela\source\repos\testapp\testapp\obj\Debug\quizmaker.baml
+C:\Users\Angela\source\repos\testapp\testapp\obj\Debug\testapp.csprojAssemblyReference.cache
+C:\Users\Angela\source\repos\testapp\testapp\obj\Debug\quizm.g.cs
+C:\Users\Angela\source\repos\testapp\testapp\obj\Debug\quizm.baml
+C:\Users\Angela\source\repos\testapp\testapp\obj\Debug\editquiz.g.cs
+C:\Users\Angela\source\repos\testapp\testapp\obj\Debug\mbetween.g.cs
+C:\Users\Angela\source\repos\testapp\testapp\obj\Debug\editquiz.baml
+C:\Users\Angela\source\repos\testapp\testapp\obj\Debug\mbetween.baml
+C:\Users\Angela\source\repos\testapp\testapp\obj\Debug\questionedit.g.cs
+C:\Users\Angela\source\repos\testapp\testapp\obj\Debug\selectquestion.g.cs
+C:\Users\Angela\source\repos\testapp\testapp\obj\Debug\questionedit.baml
+C:\Users\Angela\source\repos\testapp\testapp\obj\Debug\selectquestion.baml
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\bin\Debug\testapp.exe.config
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\bin\Debug\testapp.exe
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\bin\Debug\testapp.pdb
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\testapp.csprojAssemblyReference.cache
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\editquiz.g.cs
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\load.g.cs
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\MainWindow.g.cs
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\mbetween.g.cs
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\questionedit.g.cs
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\quizm.g.cs
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\quizmaker.g.cs
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\selectquestion.g.cs
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\App.g.cs
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\testapp_MarkupCompile.cache
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\testapp_MarkupCompile.lref
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\editquiz.baml
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\load.baml
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\MainWindow.baml
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\mbetween.baml
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\questionedit.baml
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\quizm.baml
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\quizmaker.baml
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\selectquestion.baml
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\testapp.g.resources
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\testapp.Form1.resources
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\testapp.Properties.Resources.resources
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\testapp.csproj.GenerateResource.cache
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\testapp.csproj.CoreCompileInputs.cache
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\testapp.exe
+C:\Users\Danny Eastwood\Documents\School\Introductory Software Projects\testapp (2)\testapp\testapp\obj\Debug\testapp.pdb
